@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">GoodsCatalogClient</string>
+    <string name="products">Products</string>
+    <string name="categories">Categories</string>
+    <string name="homeDescription">Welcome to categories\nWe are your assistants in product managing\n--------</string>
+    <string name="title">CATEGORIES MANAGER</string>
+    <string name="laptop">💻</string>
+    <string name="open">Open</string>
+    <string name="expand">Expand</string>
 </resources>

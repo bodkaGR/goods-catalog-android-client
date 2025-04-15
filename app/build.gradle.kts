@@ -6,6 +6,10 @@ android {
     namespace = "com.bodkasoft.goodscatalogclient"
     compileSdk = 35
 
+    viewBinding {
+        enable = true
+    }
+
     defaultConfig {
         applicationId = "com.bodkasoft.goodscatalogclient"
         minSdk = 31
@@ -32,7 +36,8 @@ android {
 }
 
 dependencies {
-
+    implementation (libs.retrofit)
+    implementation(libs.retrofit2.converter.gson)
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
